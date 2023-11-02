@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: source_tickit
+    database: dev
+    description: This is the sample Tickit database, extracted and loaded in the warehouse.
+    tables:
+      - name: category
+      - name: date
+      - name: event
+      - name: listing
+      - name: sales
+      - name: users
+      - name: venue
