@@ -1,0 +1,19 @@
+version: 2
+
+models:
+
+    - name: int_categories
+      description: All categories with details.
+
+    - name: int_events
+      description: All categories with details.
+
+    - name: int_venues
+      description: All categories with details.
+
+    - name: int_sales
+      description: All sales and listings details.
+
+    
+
+    

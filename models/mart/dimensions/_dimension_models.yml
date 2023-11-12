@@ -1,0 +1,20 @@
+version: 2
+
+models:
+
+    - name: dim_categories
+      description: All categories with details.
+
+    - name: dim_venues
+      description: All venues with details.
+
+    - name: dim_dates
+      description: All dates with details.
+
+    - name: dim_users
+      description: All users with details.
+
+    - name: dim_events
+      description: All events with details.
+
+    

@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_category
+    description: Late binding staging view of dimension table - TICKIT category
+
+  - name: stg_date
+    description: Late binding staging view of dimension table - TICKIT date
+
+  - name: stg_event
+    description: Late binding staging view of dimension table - TICKIT event
+
+  - name: stg_listing
+    description: Late binding staging view of fact table - TICKIT listing
+
+  - name: stg_sales
+    description: Late binding staging view of fact table - TICKIT sale
+    
+  - name: stg_users
+    description: Late binding staging view of dimension table - TICKIT user
+
+  - name: stg_venue
+    description: Late binding staging view of dimension table - TICKIT venue
