@@ -3,10 +3,10 @@ version: 2
 models:
 
     - name: dim_categories
-      description: Mart dimension table without foreign keys, having category id and attributes and basic aggregations. 
+      description: Mart dimension table, having category id and attributes and basic aggregations. 
 
     - name: dim_venues
-      description: Mart dimension table without foreign keys, having venue id and attributes and basic aggregations.
+      description: Mart dimension table, having venue id and attributes and basic aggregations.
 
     - name: dim_dates
       description: Mart dimension table without foreign keys, having date id and attributes.
