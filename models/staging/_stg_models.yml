@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_categories
+    description: Staging view of table - Tickit category.
+
+  - name: stg_dates
+    description: Staging view of table - Tickit date.
+
+  - name: stg_events
+    description: Staging view of table - Tickit event.
+
+  - name: stg_listings
+    description: Staging view of table - Tickit listing.
+
+  - name: stg_sales
+    description: Staging view of table - Tickit sale.
+    
+  - name: stg_users
+    description: Staging view of table - Tickit user.
+
+  - name: stg_venues
+    description: Staging view of table - Tickit venue.

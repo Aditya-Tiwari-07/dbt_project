@@ -1,0 +1,63 @@
+version: 2
+
+sources:
+  - name: source_tickit
+    database: dev
+    description: This is the sample Tickit database, extracted and loaded in the warehouse.
+    tables:
+      - name: category
+        columns:
+          - name: catid
+            data_type: int
+            description: primary key
+            tests:
+              - unique
+              - not_null
+      - name: date
+        columns:
+          - name: dateid
+            data_type: int
+            description: primary key
+            tests:
+              - unique
+              - not_null
+      - name: event
+        columns:
+          - name: eventid
+            data_type: int
+            description: primary key
+            tests:
+              - unique
+              - not_null
+      - name: listing
+        columns:
+          - name: listid
+            data_type: int
+            description: primary key
+            tests:
+              - unique
+              - not_null
+      - name: sales
+        columns:
+          - name: saleid
+            data_type: int
+            description: primary key
+            tests:
+              - unique
+              - not_null
+      - name: users
+        columns:
+          - name: userid
+            data_type: int
+            description: primary key
+            tests:
+              - unique
+              - not_null
+      - name: venue
+        columns:
+          - name: venueid
+            data_type: int
+            description: primary key
+            tests:
+              - unique
+              - not_null

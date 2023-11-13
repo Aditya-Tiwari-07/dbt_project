@@ -1,0 +1,15 @@
+version: 2
+
+models:
+
+    - name: int_categories
+      description: Intermediate view of categories table with some basic aggregations.
+
+    - name: int_events
+      description: Intermediate view of events table with some basic aggregations.
+
+    - name: int_venues
+      description: Intermediate view of venues table with some basic aggregations.
+
+    - name: int_sales
+      description: Intermediate view of sales table with listing data as well.
