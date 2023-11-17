@@ -35,9 +35,9 @@ with
             s.qty_listed
 
         from sales as s
-        right join events as e on s.event_id = e.event_id
-        right join venues as v on e.venue_id = v.venue_id
-        right join categories as c on e.cat_id = c.cat_id
+        left join events as e on s.event_id = e.event_id
+        left join venues as v on e.venue_id = v.venue_id
+        left join categories as c on e.cat_id = c.cat_id
 
         order by s.sale_id
 
