@@ -25,9 +25,8 @@ with
             l.list_time,
             l.num_tickets as qty_listed
 
-
         from sales as s
-        right join listings as l on s.list_id = l.list_id
+        left join listings as l on s.list_id = l.list_id
 
         order by s.sale_id
 
